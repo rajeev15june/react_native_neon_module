@@ -18,5 +18,8 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
