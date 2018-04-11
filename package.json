@@ -1,6 +1,6 @@
 {
   "name": "react_native_neon_module",
-  "version": "1.2.2",
+  "version": "1.2.1",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -18,8 +18,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "exclude": [
-    "node_modules"
-  ]
+  }
 }
