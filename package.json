@@ -1,14 +1,20 @@
 {
   "name": "react_native_neon_module",
-  "version": "1.1.8",
+  "version": "1.1.5",
   "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
-    "react": "^15.0.0",
-    "react-native": "^0.26.0"
+    "react": "^16.3.1",
+    "react-native": "^0.55.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-preset-react-native": "^4.0.0",
+    "jest": "^22.4.3",
+    "react-test-renderer": "^16.3.1"
   },
   "jest": {
     "preset": "react-native"
